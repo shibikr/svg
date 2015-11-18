@@ -6,7 +6,13 @@
 <body>
 <h2>New Circle</h2>
 <svg height="1000" width="1000">
-<circle cx="100" cy="100" r="50" stroke="black" stroke-width="3" fill="pink" />
+	<circle cx="100" cy="100" r="50" stroke="black" stroke-width="3" fill="pink" >
+		<animate attributeType="XML"
+				 attributeName="cx"
+				 from="-100" to = "500"
+				 dur="10s"
+				 repeatCount="indefinite"/>
+	</circle>
 </svg>
 </body>
 </html>
